@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100b1d">
+  <title>Nova Top Up | Haïti</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #100b1d;
+      color: white;
+    }
+    header {
+      padding: 22px 18px;
+      background: #19122a;
+      border-bottom: 1px solid #7541c8;
+      text-align: center;
+    }
+    header h1 { margin: 0; color: #c49aff; }
+    header p { margin-bottom: 0; color: #ddd1f7; }
+    main { max-width: 700px; margin: auto; padding: 22px 16px; }
+    .hero {
+      padding: 28px 18px;
+      text-align: center;
+      border-radius: 18px;
+      background: linear-gradient(140deg, #39205f, #171126);
+    }
+    .hero h2 { font-size: 28px; margin-top: 0; }
+    .hero p { line-height: 1.6; color: #e2d8f5; }
+    .game {
+      background: #211831;
+      border: 1px solid #493365;
+      border-radius: 14px;
+      padding: 18px;
+      margin-top: 16px;
+    }
+    .game h3 { margin-top: 0; color: #d4b5ff; }
+    .game p { color: #ded6eb; line-height: 1.5; }
+    .button {
+      display: block;
+      width: 100%;
+      padding: 13px;
+      border: 0;
+      border-radius: 9px;
+      background: #8b45e8;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .notice {
+      margin-top: 22px;
+      padding: 14px;
+      background: #292039;
+      border-radius: 10px;
+      color: #e3d7f7;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    footer { padding: 24px 12px; text-align: center; color: #b9aacd; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>💎 NOVA TOP UP</h1>
+    <p>Recharge ton jeu. Libère ta puissance.</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Ton univers gaming commence ici ⚡</h2>
+      <p>Découvre notre future boutique de recharges de jeux en Haïti.</p>
+    </section>
+
+    <section class="game">
+      <h3>🔥 Free Fire</h3>
+      <p>Diamants Free Fire</p>
+      <p>Nos offres seront affichées après confirmation de nos fournisseurs.</p>
+      <button class="button" onclick="alert('Nova Top Up : catalogue en préparation !')">
+        Catalogue bientôt disponible
+      </button>
+    </section>
+
+    <section class="game">
+      <h3>🎯 PUBG Mobile</h3>
+      <p>UC PUBG Mobile</p>
+      <p>Disponibilité à confirmer.</p>
+    </section>
+
+    <section class="game">
+      <h3>⚔️ Mobile Legends</h3>
+      <p>Diamants Mobile Legends</p>
+      <p>Disponibilité à confirmer.</p>
+    </section>
+
+    <div class="notice">
+      <strong>📢 Information</strong><br>
+      Notre boutique est en préparation. Les commandes et les paiements
+      ne sont pas encore activés. Ne verse aucun argent pour le moment.
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Nova Top Up · Haïti 🇭🇹<br>
+    Boutique indépendante en préparation.
+  </footer>
+</body>
+</html>
